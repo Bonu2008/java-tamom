@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", 'Arial', 'sans-serif';
+    font-size: 18px;
+    line-height: normal;
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1300px;
+    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ota__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dock {
+    border: 1px solid #000;
+    padding: 10px 10px;
+    width: 450px;
+    text-align: center;
+    height: 700px;
+    overflow: scroll;
+}
+
+.dock:hover {
+    background-color: #000000;
+}
+
+.div__vid {
+    border: 2px solid rgb(92, 171, 255);
+    background-color: #abfffc;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.user__btn,
+.post__btn {
+    border: none;
+    background-color: none;
+    background-color: #000;
+    color: #fff7f7;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.user__btn:hover {
+    background-color: #393838;
+}
+
+.post__btn:hover {
+    background-color: #393838;
+}
+
+.user__btn:active {
+    background-color: rgb(56, 56, 56);
+}
+
+.post__btn:active {
+    background-color: rgb(56, 56, 56);
+}
+
+.button {
+    margin-top: 15px;
+    border: none;
+    background-color: none;
+    border: 1px solid #000000;
+    background-color: #e6ff29;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #000000;
+}
